@@ -96,7 +96,7 @@ function AddPost() {
             <div>
               <img
                 className="previewImg"
-                src={`http://localhost:4080${previewImg}`}
+                src={`https://mern-art-app.onrender.com${previewImg}`}
                 alt=""
               />
               <button onClick={removePreviewImg}>Удалить изображение</button>
@@ -180,7 +180,7 @@ export default AddPost;
 <Slider {...settings}>
   {images.map((image, index) => (
     <div key={index}>
-      <img src={`http://localhost:4080${image}`} alt={`Image ${index}`} />
+      <img src={`https://mern-art-app.onrender.com${image}`} alt={`Image ${index}`} />
     </div>
   ))}
 </Slider>
