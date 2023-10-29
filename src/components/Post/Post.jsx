@@ -10,7 +10,7 @@ function Post({ id, title, text, member, previewImg }) {
         <Link to={`/members/${member.info.address}`}>
           <div className="post-left_title">
             <img
-              src={`http://localhost:4080${member.info.avatar}`}
+              src={`https://mern-art-app.onrender.com${member.info.avatar}`}
               alt=""
               className="ava"
             />
@@ -20,7 +20,7 @@ function Post({ id, title, text, member, previewImg }) {
         <Link to={`/posts/${id}`}>
           <div className="image-wrapper">
             <img
-              src={`http://localhost:4080${previewImg}`}
+              src={`https://mern-art-app.onrender.com${previewImg}`}
               alt=""
               className="image"
             />
