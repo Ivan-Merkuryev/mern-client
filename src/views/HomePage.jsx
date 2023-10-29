@@ -83,9 +83,9 @@ function Home() {
           />
         ))}
       </div>
-
+<div className="m-top">
       {ButtonLink("/blog", "Открыть полностью")}
-
+</div>
       <p className="text">
         Мы поддерживаем молодых талантов и предлагаем им возможность продавать
         свои творения. В нашем сообществе вы найдете именно то, что ищете:
@@ -108,7 +108,10 @@ function Home() {
           />
         ))}
       </div>
-      {ButtonLink("/store", "Открыть полностью")}
+      <div className="m-top">
+         {ButtonLink("/store", "Открыть полностью")}
+      </div>
+     
     </>
   );
 }
