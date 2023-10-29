@@ -199,7 +199,7 @@ function Basket() {
                   >
                     <img
                       className="basket-img"
-                      src={`http://localhost:4080${product.product.productUrl[0]}`}
+                      src={`https://mern-art-app.onrender.com${product.product.productUrl[0]}`}
                       alt=""
                     />
                   </Link>
