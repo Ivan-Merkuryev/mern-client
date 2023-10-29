@@ -82,7 +82,7 @@ function AddProduct() {
               <div className="product-img" key={image}>
                 <img
                   className="slider-img"
-                  src={`http://localhost:4080${image}`}
+                  src={`https://mern-art-app.onrender.com${image}`}
                 />
               </div>
             ))}
