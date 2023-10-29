@@ -67,7 +67,7 @@ function MembersPreview({members}) {
               <Link key={el._id} to={`/members/${el.address}`}>
                 <motion.img
                   className="logo"
-                  src={`http://localhost:4080${el.avatar}`}
+                  src={`https://mern-art-app.onrender.com${el.avatar}`}
                   alt=""
                   initial={{ opacity: 0 }}
                   animate={{ opacity: 1 }}
@@ -104,7 +104,7 @@ function MembersPreview({members}) {
                 <Link key={el._id} to={`/members/${el.address}`} className="link-desctop">
                   <motion.img
                     className="logo"
-                    src={`http://localhost:4080${el.avatar}`}
+                    src={`https://mern-art-app.onrender.com${el.avatar}`}
                     alt=""
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
