@@ -27,7 +27,7 @@ function BasketProduct({
       >
         <img
           className="basket-img"
-          src={`http://localhost:4080${productUrl}`}
+          src={`https://mern-art-app.onrender.com${productUrl}`}
           alt=""
         />
       </Link>
@@ -111,7 +111,7 @@ function BasketProduct({
       <Link to={`/members/${address.address}`}>
         <img
           className="basket-logo"
-          src={`http://localhost:4080${logo.avatar}`}
+          src={`https://mern-art-app.onrender.com${logo.avatar}`}
           alt=""
         />
       </Link>
