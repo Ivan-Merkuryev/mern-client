@@ -145,7 +145,7 @@ function EditProfile() {
             {avatar ? (
               <img
                 className="form-avatar_img"
-                src={`http://localhost:4080${avatar}`}
+                src={`https://mern-art-app.onrender.com${avatar}`}
                 alt=""
               />
             ) : (
@@ -187,7 +187,7 @@ function EditProfile() {
             {backgroundImg ? (
               <img
                 className="form-background_img"
-                src={`http://localhost:4080${backgroundImg}`}
+                src={`https://mern-art-app.onrender.com${backgroundImg}`}
                 alt=""
               />
             ) : (
@@ -220,7 +220,7 @@ function EditProfile() {
               {sliderImg ? (
                 <img
                   className="form-background_img"
-                  src={`http://localhost:4080${sliderImg}`}
+                  src={`https://mern-art-app.onrender.com${sliderImg}`}
                   alt=""
                 />
               ) : (
