@@ -119,10 +119,10 @@ function Header({ avatar, nameGroup }) {
             <motion.ul
               variants={variants}
               className="sidebar"
-              // style={{
-              //   zIndex: isOpen ? 4 : null,
-              //   display: isDisplayNone ? "none" : null,
-              // }}
+               style={{
+                 zIndex: isOpen ? 4 : null,
+                 display: isDisplayNone ? "none" : null,
+               }}
             >
               <motion.li className="list-item" variants={livariants}>
                 <Link to="/members">Участники</Link>
@@ -185,7 +185,7 @@ function Header({ avatar, nameGroup }) {
                     </Link>
                   </motion.li>
                   <motion.li className="list-item" variants={livariants}>
-                    <Link lassName="open-btn" to="/login">
+                    <Link className="open-btn" to="/login">
                       Войти
                     </Link>
                   </motion.li>
