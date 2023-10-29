@@ -1,0 +1,78 @@
+.basket-list
+    display: grid
+    gap: 10px
+
+
+    // justify-content: center
+
+    // align-content: center
+.basket-product
+    // width: 46%
+    border: solid 1px #ccc
+    border-radius: 15px
+    display: grid
+    align-items: center
+    justify-items: center
+    grid-template-columns: 1fr 2fr 2fr 1fr
+    padding: 15px
+    position: relative
+.basket-group
+    width: 100%
+    display: grid
+    grid-template-columns: 1fr 1fr
+    align-items: center
+    justify-items: center
+    @media screen and (max-width: 750px)
+        grid-template-columns: 1fr
+.basket-img
+    height: 100px
+    border-radius: 10px
+    @media screen and (max-width: 750px)
+        height: 60px
+.basket-buttons
+    display: flex
+    align-items: center
+    gap: 5px
+.grid
+    display: grid
+    grid-template-columns: 1.2fr 0.8fr
+    gap: 3%
+    width: 96%
+    margin: 0 auto
+    align-items: flex-start
+    @media screen and (max-width: 1200px) 
+        grid-template-columns: 1fr
+
+.basket-board
+    border: solid 1px #ccc
+    border-radius: 15px
+    padding: 28px 18px 
+    height: 145px
+    display: flex
+    flex-direction: column
+    justify-content: space-between
+    align-items: flex-start
+    @media screen and (max-width: 1200px) 
+        order: -1
+.bttn
+    min-width: 200px
+.title-basket
+    margin: 0
+.basket-logo
+    width: 40px
+    height: 40px
+    border-radius: 20px
+    position: absolute
+    top: 5px
+    right: 5px
+.order-cart
+    border: solid 1px #ccc
+    padding: 15px
+    border-radius: 15px
+    margin-bottom: 20px 
+.order-product
+    border: none
+    grid-template-columns: repeat(4, 1fr)
+.order-info
+    display: flex
+    gap: 20px
