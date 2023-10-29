@@ -83,6 +83,7 @@ function Home() {
           />
         ))}
       </div>
+      
 <div className="m-top">
       {ButtonLink("/blog", "Открыть полностью")}
 </div>
