@@ -189,7 +189,7 @@ function FullProduct() {
         <div className="main-image">
           <img
             className="big-image"
-            src={`http://localhost:4080${data.productUrl[selectedImageIndex]}`}
+            src={`https://mern-art-app.onrender.com${data.productUrl[selectedImageIndex]}`}
             alt=""
           />
         </div>
@@ -203,7 +203,7 @@ function FullProduct() {
             >
               <img
                 className="slider-img"
-                src={`http://localhost:4080${image}`}
+                src={`https://mern-art-app.onrender.com${image}`}
                 alt=""
               />
             </div>
