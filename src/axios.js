@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const instance = axios.create({
-  baseURL: "http://localhost:4080",
+  baseURL: "https://mern-art-app.onrender.com",
 });
 
 instance.interceptors.request.use((config) => {
