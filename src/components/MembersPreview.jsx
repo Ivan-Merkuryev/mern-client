@@ -11,17 +11,7 @@ function MembersPreview({members}) {
 
   const isMobile = useIsMobile();
   const [page, setPage] = useState(1);
-  // useEffect(() => {
-  //   dispatch(fetchMemberInfo());
-  // }, []);
-  // console.log(members)
-
-  // const members = useSelector((state) => state.member);
-
-  // if (members.status !== "loaded") {
-  //   return null;
-  // }
-
+  
   const quantity = 4;
   const allMembers = members.data.length;
   const quantityPages = Math.ceil(allMembers / quantity);
@@ -67,7 +57,7 @@ function MembersPreview({members}) {
               <Link className="logo" key={el._id} to={`/members/${el.address}`}>
                 <motion.img
                   className="logo"
-                  src={`http://localhost:4080${el.avatar}`}
+                  src={`https://mern-art-app.onrender.com${el.avatar}`}
                   alt=""
                   initial={{ opacity: 0 }}
                   animate={{ opacity: 1 }}
@@ -104,7 +94,7 @@ function MembersPreview({members}) {
                 <Link key={el._id} to={`/members/${el.address}`} className="link-desctop">
                   <motion.img
                     className="logo"
-                    src={`http://localhost:4080${el.avatar}`}
+                    src={`https://mern-art-app.onrender.com${el.avatar}`}
                     alt=""
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
