@@ -4,7 +4,7 @@ function Author({ name, logo, address }) {
   return (
     <div style={{display: 'flex', alignContent: 'flex-start'}}>
       <Link to={`/members/${address}`} className="author">
-        <img src={`http://localhost:4080${logo}`} alt="" className="logo" />
+        <img src={`https://mern-art-app.onrender.com${logo}`} alt="" className="logo" />
         <p>{name}</p>
       </Link>
     </div>
