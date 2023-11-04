@@ -108,7 +108,7 @@ function Header({ avatar, nameGroup }) {
           {avatar ? (
             <div className="header-logo">
               <img
-                src={`http://localhost:4080${avatar}`}
+                src={`https://mern-art-app.onrender.com${avatar}`}
                 className="logo"
                 alt="logo"
               />
@@ -116,7 +116,6 @@ function Header({ avatar, nameGroup }) {
             </div>
           ) : (
             <img src="../icons/logoHome.svg" alt="logo" />
-            // <img src="http://localhost:3000/icons/logoHome.svg" alt="logo" />
           )}
         </Link>
       </div>
