@@ -51,7 +51,7 @@ function Members() {
           })
           .map((el) => (
             <Link to={`/members/${el.address}`} className="link-desctop" key={el._id}>
-              <img src={`http://localhost:4080${el.avatar}`} className="logo" />
+              <img src={`https://mern-art-app.onrender.com${el.avatar}`} className="logo" />
               <p>{el.nameGroup}</p>
             </Link>
           ))}
