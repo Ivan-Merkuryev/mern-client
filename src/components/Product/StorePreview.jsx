@@ -10,7 +10,7 @@ function StorePreview({ id, title, description, member, productUrl, price }) {
           <Link to={`/members/${member.address}`} className="min-avatar">
             <img
               className="ava"
-              src={`http://localhost:4080${member.info.avatar}`}
+              src={`https://mern-art-app.onrender.com${member.info.avatar}`}
               alt=""
             />
             <p> {member.info.nameGroup} </p>
@@ -19,7 +19,7 @@ function StorePreview({ id, title, description, member, productUrl, price }) {
         <Link to={`/store/${id}`}>
           <div className="img">
             <img
-              src={`http://localhost:4080${productUrl[0]}`}
+              src={`https://mern-art-app.onrender.com${productUrl[0]}`}
               alt=""
               className="carts-cart_img"
             />
