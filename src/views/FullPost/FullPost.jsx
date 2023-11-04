@@ -55,7 +55,7 @@ function FullPost() {
           >
             <img
               className="logo"
-              src={`http://localhost:4080${data.member.info.avatar}`}
+              src={`https://mern-art-app.onrender.com${data.member.info.avatar}`}
             />
             <p>{data.member.info.nameGroup}</p>
           </Link>
@@ -77,7 +77,7 @@ function FullPost() {
         <div className="fullproduct-content">
           <img
             className="post-img"
-            src={`http://localhost:4080${data.previewImg}`}
+            src={`https://mern-art-app.onrender.com${data.previewImg}`}
             alt=""
           />
           <div className="fullpost-text">
