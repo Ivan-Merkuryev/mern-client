@@ -11,7 +11,7 @@ function BlogPreview({ id, title, text, previewImg, member, address }) {
           <Link to={`/members/${member.address}`} className="min-avatar">
             <img
               className="ava"
-              src={`http://localhost:4080${member.info.avatar}`}
+              src={`https://mern-art-app.onrender.com${member.info.avatar}`}
               alt=""
             />
             <p> {member.info.nameGroup} </p>
@@ -21,7 +21,7 @@ function BlogPreview({ id, title, text, previewImg, member, address }) {
         <Link to={`/posts/${id}`}>
           <div className="posts-post_img">
             <img
-              src={`http://localhost:4080${previewImg}`}
+              src={`https://mern-art-app.onrender.com${previewImg}`}
               alt=""
               className="img"
             />
