@@ -157,14 +157,14 @@ function PersonalPage() {
       />
       <img
         className="bg"
-        src={`http://localhost:4080${data.backgroundImg}`}
+        src={`https://mern-art-app.onrender.com${data.backgroundImg}`}
         alt=""
       />
 
       <div className="slider-info margin">
         <img
           className="slider"
-          src={`http://localhost:4080${data.sliderImg}`}
+          src={`https://mern-art-app.onrender.com${data.sliderImg}`}
           alt=""
         />
         <div>
