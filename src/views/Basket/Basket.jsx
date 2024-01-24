@@ -274,7 +274,6 @@ function Basket() {
       </>
     );
   }
-  console.log(products);
 
   return (
     <>
